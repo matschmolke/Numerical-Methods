@@ -19,16 +19,13 @@ print(np.linalg.solve(A, b))
 
 # Zadanie 1: Otwarty model ekonomiczny Leontiefa
 num_sectors = 10
-
 X = leontief(num_sectors)
 
 print("Zadanie 1: Otwarty model ekonomiczny Leontiefa")
 print("\nWektor X (produkcja sektorów):")
 print(X)
 
-
 # Zadanie 2: Odkształcenia belki zamocowanej jednostronnie
-print("Odkształcenia belki zamocowanej jednostronnie:")
-
+print("\nOdkształcenia belki zamocowanej jednostronnie:")
 beam_deformation()
 

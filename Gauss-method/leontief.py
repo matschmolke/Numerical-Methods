@@ -17,10 +17,8 @@ def generate_rand_vector(n):
     return np.random.randint(20, 100, size=(n, 1))
 
 def leontief(n):
-
     A = generate_rand_matrix(n)
     D = generate_rand_vector(n)
-
     I = np.eye(n)  # macierz jednostkowa kwadratowa
     IA = I - A
 
