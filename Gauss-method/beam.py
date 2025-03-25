@@ -33,3 +33,4 @@ def beam_deformation():
     plt.title("Odkształcenia belki zamocowanej jednostronnie")
     plt.grid(True)
     plt.show()
+    
